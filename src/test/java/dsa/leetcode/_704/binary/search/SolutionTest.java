@@ -7,9 +7,9 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(MockitoExtension.class)
-public class BinarySearchTest {
+public class SolutionTest {
 
-    private final BinarySearch algorithm = new BinarySearch();
+    private final Solution solution = new Solution();
     private int[] nums;
     private int target;
 
@@ -18,7 +18,7 @@ public class BinarySearchTest {
         nums = new int[]{-1,0,3,5,9,12};
         target = 9;
 
-        int result = algorithm.search(nums, target);
+        int result = solution.search(nums, target);
         assertEquals(4, result);
     }
 
@@ -27,7 +27,7 @@ public class BinarySearchTest {
         nums = new int[]{-1,0,3,5,9,12};
         target = 2;
 
-        int result = algorithm.search(nums, target);
+        int result = solution.search(nums, target);
         assertEquals(-1, result);
     }
 }

@@ -12,8 +12,7 @@ Input: nums = `[-1,0,3,5,9,12]`, target = `2`
 Output: `-1`  
 Explanation: `2 does not exist in nums so return -1`
 
-
-Constraints:  
+### Constraints:  
 1 <= `nums.length` <= 104  
 -104 < `nums[i], target` < 104  
 All the integers in nums are unique.  

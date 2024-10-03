@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(MockitoExtension.class)
 public class SolutionTest {
-    private Solution solution = new Solution();
+    private final Solution solution = new Solution();
 
     @Test
     public void case1() {

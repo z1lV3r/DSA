@@ -1,6 +1,8 @@
 package dsa.leetcode._2367.brute.force;
 
-public class Solution {
+import dsa.leetcode._2367.BaseSolution;
+
+public class Solution  implements BaseSolution {
     public int arithmeticTriplets(int[] nums, int diff) {
         int i=0, j=1, k=2;
         int triplets=0;
